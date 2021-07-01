@@ -39,7 +39,7 @@ The model is available at [link](https://drive.google.com/file/d/1BcyRDM3g9CZTkI
 <img src="images/demo.jpg" width="200"> <img src="images/demo1.jpg" width="200"> <img src="images/demo2.jpg" width="200">
 
 ### Acknowledgement 
-This implemntation is highly relied on the repoes 
-https://github.com/microsoft/Swin-Transformer/blob/main/get_started.md
-https://github.com/bkong999/COVNet
-Thanks for these great work
+This implementation is highly relied on the repos <br>[Swin-Transformer](https://github.com/microsoft/Swin-Transformer/blob/main/get_started.md) <br>
+[COVNet](https://github.com/bkong999/COVNet)
+<br>
+Thanks for all these great work
