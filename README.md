@@ -34,9 +34,7 @@ refer the requirement.txt for more specification
 
 
 ## COVNet
-<img src="images/demo.jpg" width="300">
-<img src="images/demo1.jpg" width="300">
-<img src="images/demo2.jpg" width="300">
+<img src="images/demo.jpg" width="300"> <img src="images/demo1.jpg" width="300"> <img src="images/demo2.jpg" width="300">
 
 ### Acknowledgement 
 This implemntation is highly relied on the repoes 
