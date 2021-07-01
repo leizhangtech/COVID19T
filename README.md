@@ -28,7 +28,7 @@ If you find this code is useful for your research, please consider citing:
 - tensorboardX
 - timm=0.4.9
 ```
-refer the requirement.txt for more specification 
+refer to the requirement.txt for more specification 
 ```
 
 ## Trained-model
