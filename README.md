@@ -7,7 +7,7 @@ This repo contains the implmentation of the paper- 'MIA-COV19D: A transformer-ba
 ### Notices
 This is a part of work in the COV19D Competition
 https://mlearn.lincoln.ac.uk/mia-cov19d/
-## Citation
+### Citation
 If you find this code is useful for your research, please consider citing:
 ```
 @article{,
@@ -34,9 +34,9 @@ refer the requirement.txt for more specification
 
 
 ## COVNet
-<img src="images/demo.png" width="300">
-<img src="images/demo1.png" width="300">
-<img src="images/demo2.png" width="300">
+<img src="images/demo.jpg" width="300">
+<img src="images/demo1.jpg" width="300">
+<img src="images/demo2.jpg" width="300">
 
 ### Acknowledgement 
 This implemntation is highly relied on the repoes 
