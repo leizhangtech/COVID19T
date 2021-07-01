@@ -31,6 +31,8 @@ If you find this code is useful for your research, please consider citing:
 refer the requirement.txt for more specification 
 ```
 
+## Trained-model
+The model is available at [link](https://drive.google.com/file/d/1BcyRDM3g9CZTkIa3cS8e21RqDEnJzGVr/view?usp=sharing)
 
 
 ## COVNet
