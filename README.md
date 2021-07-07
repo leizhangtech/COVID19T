@@ -27,9 +27,47 @@ If you find this code is useful for your research, please consider citing:
 - batchgenerators
 - tensorboardX
 - timm=0.4.9
+- scipy
+- opencv
+- matplotlib
+- scikit-image
+- pydicom
+- sklearn
+
+```
+pip install git+https://github.com/MELSunny/lungmask
+```
+
 ```
 refer to the requirement.txt for more specification 
 ```
+
+## Prepare the dataset
+
+Unzip the train val test RAR files to **DECOMPRESS_DIRECTORY**
+
+The files and folders in **DECOMPRESS_DIRECTORY** are like this arch:  
+* DECOMPRESS_DIRECTORY  
+    * train  
+        * covid  
+            * ct_scan_0  
+            * etc  
+        * non-covid 
+            * ct_scan_0  
+            * etc  
+    * val  
+        * covid  
+            * ct_scan_0  
+            * etc  
+        * non-covid 
+            * ct_scan_0  
+            * etc  
+    * test
+        * 0a4e7be0-3f5f-4f0e-90be-2774b101a47b
+        * etc  
+
+Set **DECOMPRESS_DIRECTORY** and **save_path** in dataloader.py and run dataloader.py  
+You can get the progress and log in save_path/run.log
 
 ## Trained-model
 The model is available at [link](https://drive.google.com/file/d/1BcyRDM3g9CZTkIa3cS8e21RqDEnJzGVr/view?usp=sharing)
@@ -42,4 +80,5 @@ The model is available at [link](https://drive.google.com/file/d/1BcyRDM3g9CZTkI
 This implementation is highly relied on the repos <br>[Swin-Transformer](https://github.com/microsoft/Swin-Transformer/blob/main/get_started.md) <br>
 [COVNet](https://github.com/bkong999/COVNet)
 <br>
+[lungmask](https://github.com/JoHof/lungmask)  
 Thanks for all these great work
